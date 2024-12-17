@@ -46,6 +46,9 @@ done
 # Fixes file ownership issue that docker creates files as root user
 sudo chown $USER:$USER wallets.db
 
+# Add execution permission to view wallet script.
+chmod +x view_wallets.sh
+
 echo "✅ Wallet generation completed."
 
 # Step 5: Run the eth-balance.py script
@@ -58,3 +61,5 @@ else
 fi
 
 echo "🎉 Process complete! Check the output for results."
+
+echo "./view_wallets.sh wallets.db"
