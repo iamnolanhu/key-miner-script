@@ -67,6 +67,19 @@ To automate the entire process, simply run:
 
 ---
 
+## **Screenshots and Demo**
+
+### **Running the Script**
+![Start Script](images/start.png)
+
+### **After Running the Script**
+![After Running](images/after-running.png)
+
+### **Demo GIF**
+![Demo Video](images/main.gif)
+
+---
+
 ## **Output Example**
 
 When the process completes, you’ll see output like this:
