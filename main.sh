@@ -51,12 +51,12 @@ chmod +x view_wallets.sh
 
 echo "✅ Wallet generation completed."
 
-# Step 5: Run the eth-balance.py script
-if [ -f "eth-balance.py" ]; then
+# Step 5: Run the key-miner.py script
+if [ -f "key-miner.py" ]; then
     echo "💰 Checking wallet balances..."
-    python3 eth-balance.py --db $DB_FILE
+    python3 key-miner.py --db $DB_FILE
 else
-    echo "❌ eth-balance.py script not found. Exiting."
+    echo "❌ key-miner.py script not found. Exiting."
     exit 1
 fi
 
