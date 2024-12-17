@@ -43,6 +43,9 @@ while [ "$(docker ps -q -f ancestor=$DOCKER_IMAGE)" ]; do
     sleep 5
 done
 
+# Fixes file ownership issue that docker creates files as root user
+sudo chown $USER:$USER wallets.db
+
 echo "✅ Wallet generation completed."
 
 # Step 5: Run the eth-balance.py script
