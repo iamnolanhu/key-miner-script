@@ -1,5 +1,7 @@
 # **Key Miner Script**
 
+![Key Miner Script](.github/hero.png)
+
 <!-- Author: Nolan Hu | https://nolanhu.com -->
 
 The **Key Miner Script** automates Ethereum wallet generation, balance checking, and summarization. It combines Docker-based wallet generation and Python-powered balance validation into a streamlined process.
